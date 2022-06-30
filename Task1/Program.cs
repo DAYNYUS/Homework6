@@ -49,7 +49,6 @@ void PrintArray(int[] array)
 }
 Console.Write("Введите числа через запятую: ");
 int[] numbers = StringToNumbers(Console.ReadLine());
-/*PrintArray(numbers);*/
 
 int num = 0;
 
@@ -59,46 +58,3 @@ for (int i = 0; i < numbers.Length; i++)
 }
 
 Console.Write($"Количество чисел больше 0: {num}");
-
-
-
-
-
-
-
-
-/*Console.Write("Введите пять чисел: ");
-string numbers = Console.ReadLine();
-char[]text = numbers.ToCharArray();
-
-
-/*string Replace(string numbers, char oldValue, char newValue)
-{
-    string result = string.Empty;
-
-    int length = numbers.Length;
-    for (int i = 0; i < length; i++)
-    {
-        int count = 0;
-        if(numbers[i] > 0) count++;
-    }
-
-    return result;
-}
-
-string newText = Replace(numbers, ' ', '|');
-
-Console.WriteLine(newText);
-Console.WriteLine();*/
-
-
-
-/*newText = Replace(newText, 'к', 'К');
-Console.WriteLine(newText);
-Console.WriteLine();
-newText = Replace(newText, 'с', 'С');
-Console.WriteLine(newText);
-
-
-
-
